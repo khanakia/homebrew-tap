@@ -3,27 +3,27 @@
 class Volt < Formula
   desc "Build, release and ship Go CLIs and libraries — any repo layout, one command"
   homepage "https://github.com/khanakia/voltkit"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "8f5f225d2a3f49bd298869f16f76938c35b6c660f820a852cbc91182659ed31a"
+      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "571dcf61463e785a2f3b641f72d09c2a9f2f0ea93244ec08e30c7e88edc61c4a"
     end
     on_intel do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "cc994329735b4dff38d107af230c7898396f307a705a06fdad366c4ac8e243a2"
+      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "f829d9ba04691cb6c7409d55f6ad40b2a3dd0b491720fb544cf1ff61a3be67e5"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_linux_arm64.tar.gz"
-      sha256 "e3caf7544dbbf82bd6ad47959824ed057ac79e25ad3ff07ddbf42266b60bfc84"
+      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_linux_arm64.tar.gz"
+      sha256 "7278968e32ac2f67ca09abe3a3d22a140c55ee9a521c6a066313f649123ef344"
     end
     on_intel do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_linux_amd64.tar.gz"
-      sha256 "6155ea58c1183f069698fe7f8e8c04b4a53547a39f512145c55866daa7bee4f3"
+      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_linux_amd64.tar.gz"
+      sha256 "04b19a169f6b5a5d4d025be1fecd78406ec998f6e4c02320e259c88e06cf6475"
     end
   end
 
