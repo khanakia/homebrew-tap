@@ -3,27 +3,27 @@
 class Browserctrl < Formula
   desc "Map Claude-in-Chrome device ids to the Chromium browser, profile and email behind them"
   homepage "https://github.com/khanakia/browserctrl"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.1/browserctrl_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "44b452093b1ca6db83ce3a0e6f864dec65076d786b7177259013f9e606b14abf"
+      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.2/browserctrl_v0.1.2_darwin_arm64.tar.gz"
+      sha256 "107dd9e5e73beb2498856a01278e4376718e41cbb4158eef3a9513878b193c09"
     end
     on_intel do
-      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.1/browserctrl_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "852d8a5ee09abfb2b35185d6c960e42f448db5e5a05f72a0866690fb08295f93"
+      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.2/browserctrl_v0.1.2_darwin_amd64.tar.gz"
+      sha256 "68ddaf360c842b9159c37a0d16638b4760812e4a2824b82798fb627e422b9625"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.1/browserctrl_v0.1.1_linux_arm64.tar.gz"
-      sha256 "c025ff2c167245617cd06acf0ab96fda10e113e6a5ea8da4d2a6c2f2514f2bc0"
+      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.2/browserctrl_v0.1.2_linux_arm64.tar.gz"
+      sha256 "d8b7b1f65646da4936b400d2070ea3a87a39a4b5e8a0adffa9fa546a540d10b9"
     end
     on_intel do
-      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.1/browserctrl_v0.1.1_linux_amd64.tar.gz"
-      sha256 "b34167cc617606274cd4f74d64cf39800cdc07d053e442b1e9057abf38c603e1"
+      url "https://github.com/khanakia/browserctrl/releases/download/v0.1.2/browserctrl_v0.1.2_linux_amd64.tar.gz"
+      sha256 "04fcc72344b2ed061b2380a403d9201fd623ceaaecf12873542bc450c3029bf1"
     end
   end
 
