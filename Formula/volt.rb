@@ -3,27 +3,27 @@
 class Volt < Formula
   desc "Build, release and ship Go CLIs and libraries — any repo layout, one command"
   homepage "https://github.com/ubgo/voltkit"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_darwin_arm64.tar.gz"
-      sha256 "e73875a912e151aa1dd53c3e2cc2e158d5ac2323890c38b4ff618d037f9c77ff"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.1/volt_v0.3.1_darwin_arm64.tar.gz"
+      sha256 "aafb20f494e814610bbbf7ad55ae7211bccf0ea8e2f0c74814063fcded806c97"
     end
     on_intel do
-      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_darwin_amd64.tar.gz"
-      sha256 "27b6e358ab4c62be6a035c78cd260d74b87d1f56d1d998a7672c3df3b202549a"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.1/volt_v0.3.1_darwin_amd64.tar.gz"
+      sha256 "28118762db1b7bdff72213cec209d86292a898f7ae7c9e5c2276843557aff804"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_linux_arm64.tar.gz"
-      sha256 "8c747d311c008183a4198f9649662d90e43e31e03b3554018c5cf5dddec5812f"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.1/volt_v0.3.1_linux_arm64.tar.gz"
+      sha256 "e0679dbc0af5df89ee11c622e8f3210a26d7cf0b30e7c51c8cba104597e68274"
     end
     on_intel do
-      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_linux_amd64.tar.gz"
-      sha256 "20445c9b4ba190b81f3d191afd3793ca45a58c640129c80d64be7c0455958813"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.1/volt_v0.3.1_linux_amd64.tar.gz"
+      sha256 "624dbd3f00158b8813ac2f3b35d427fa5e4e1a1d53d802455b841bbfcd220c13"
     end
   end
 
