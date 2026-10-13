@@ -2,28 +2,28 @@
 # Regenerate by releasing volt; edits here are overwritten on the next release.
 class Volt < Formula
   desc "Build, release and ship Go CLIs and libraries — any repo layout, one command"
-  homepage "https://github.com/khanakia/voltkit"
-  version "0.2.0"
+  homepage "https://github.com/ubgo/voltkit"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "355ffd7063a1e753bd48018479460f5ce03edcb54b1d8511db2170a0d16fc7e0"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "e73875a912e151aa1dd53c3e2cc2e158d5ac2323890c38b4ff618d037f9c77ff"
     end
     on_intel do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "dfd57b1b94c96fac9eebf6a6569ea60dd47efac6b6c385f53557e1499b2f7619"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "27b6e358ab4c62be6a035c78cd260d74b87d1f56d1d998a7672c3df3b202549a"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_linux_arm64.tar.gz"
-      sha256 "1a08629a2ccd5e06fbe7293e4540bb4cd223f30d0b0eeb579245a4374a95270b"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_linux_arm64.tar.gz"
+      sha256 "8c747d311c008183a4198f9649662d90e43e31e03b3554018c5cf5dddec5812f"
     end
     on_intel do
-      url "https://github.com/khanakia/voltkit/releases/download/volt/v0.2.0/volt_v0.2.0_linux_amd64.tar.gz"
-      sha256 "8c387159703322700d101933d688b26f92572ba8d132b811d55d23ebde0ef024"
+      url "https://github.com/ubgo/voltkit/releases/download/volt/v0.3.0/volt_v0.3.0_linux_amd64.tar.gz"
+      sha256 "20445c9b4ba190b81f3d191afd3793ca45a58c640129c80d64be7c0455958813"
     end
   end
 
